@@ -15,24 +15,6 @@ Aplikasi mobile yang memungkinkan pengguna untuk memilih game dan melakukan topu
 - **Flutter**: Framework untuk membangun aplikasi mobile cross-platform.
 - **Dart**: Bahasa pemrograman untuk Flutter.
 
-## Struktur Folder
-lib/
-├── main.dart                # Entry point aplikasi
-├── pages/                   
-│   ├── home_page.dart       # Halaman utama yang menampilkan grid kartu game
-│   ├── game_detail_page.dart # Halaman detail yang menampilkan form dan daftar topup
-└── assets/
-    ├── coc.png              # Gambar untuk Clash of Clans
-    ├── cr.png               # Gambar untuk Clash Royale
-    ├── hok.png              # Gambar untuk Honor Of Kings
-    ├── ff.png               # Gambar untuk Free Fire
-    ├── genshin.png          # Gambar untuk Genshin Impact
-    ├── ml.png               # Gambar untuk Mobile Legends
-    ├── honkai.png           # Gambar untuk Honkai Impact 3
-    ├── apex.png             # Gambar untuk Apex Legends
-    ├── valo.png             # Gambar untuk Valorant
-    └── pubg.png             # Gambar untuk PUBG
-
 # Penjelasan
  - main.dart: Ini adalah titik awal aplikasi yang mengarahkan ke halaman utama (MyHomePage).
  - home_page.dart: Menampilkan grid yang berisi daftar game, dan ketika pengguna mengklik salah satu kartu game, mereka akan diarahkan  ke halaman detail game.
